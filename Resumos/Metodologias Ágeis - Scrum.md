@@ -394,12 +394,11 @@
 
 | **Título da User Story** |
 |:------------------------------------------------------------------------------------------------------------------:|
-| Como um <papel do usuário> quero fazer <objetivo> para conseguir <benefício>. |
+| Como um <papel do usuário> quero fazer \<objetivo> para conseguir <benefício>. |
 
 | **ATOR** | **AÇÃO** | **OBJETIVO** |
 |:---------------------:|:----------------------------------------------:|:-----------------------------------------:|
 | Dono da história. | O que o ator quer fazer, o que deve ser alcançado. | O que o ator deseja que aconteça. |
-
 
 ### **Categorias de User Stories**
 
