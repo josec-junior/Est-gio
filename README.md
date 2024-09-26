@@ -10,3 +10,5 @@ Este repositório contém resumos e atividades realizados durante o meu Estágio
 - [_Conventional Commits_](Resumos/Conventional%20Commits.md)
 
 - [Markdown](Resumos/Markdown.md)
+
+- [Fundamentos de Segurança da Informação](Resumos/Fundamentos%20de%20Segurança%20da%20Informação.md)
