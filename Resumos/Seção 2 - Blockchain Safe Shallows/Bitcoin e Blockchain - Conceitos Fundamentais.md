@@ -710,7 +710,7 @@
 
 - **Monitoramento por autoridades**: grandes quantidades de dinheiro movimentadas podem ser facilmente rastreadas pelas autoridades fiscais e financeiras.
 
-### **Técnicas de Melhorar o Anonimato**
+### **Técnicas para Melhorar o Anonimato**
 
 - Criar uma nova chave pública a cada transação aumenta a dificuldade de rastrear as atividades, mas não garante anonimato completo;
 
@@ -723,6 +723,345 @@
 - “*Mixing*” é o processo de misturar *bitcoins* de diferentes usuários para dificultar o rastreamento de transações;
 
 - Por exemplo: vários usuários depositam *bitcoins* em um serviço de *mixing*, e cada um recebe de volta *bitcoins* misturados de forma que a origem e o destino das moedas ficam embaralhados.
+
+## **Introdução ao *Ethereum***
+
+- Como o *Bitcoin* foi projetado para uma aplicação específica, como uma forma de transferir moedas e realizar pagamentos;
+
+- No entanto, a tecnologia (*Blockchain*) em que ele está baseado permite muitas outras aplicações, isso levou ao surgimento de diversas ***Altcoins*** (*Alternative Coins*, moedas alternativas ao *Bitcoin*);
+
+- *Ethereum* possui o **segundo maior *cap rate*** de todas as criptomoedas (atrás apenas do *Bitcoin*), ou seja, o valor monetário de todas as moedas em circulação;
+
+- Comunidade ativa e em crescimento, desenvolvendo tanto a criptomoeda quanto seu ecossistema;
+
+- Conceitualmente diferente do *Bitcoin*, o que permite explorar novos conceitos;
+
+- Projeto ambicioso, com impacto significativo no mundo.
+
+### **Diferenças em Relação ao *Bitcoin***
+
+- *Bitcoin* foi projetado como uma forma de transferência de valor;
+
+- *Ethereum* agrega capacidades computacionais, permitindo rodar programas dentro da rede (*Smart Contracts*, Contratos Inteligentes).
+
+### **Capacidades do *Ethereum***
+
+- Além das funções básicas do *Bitcoin*, o *Ethereum*:  
+  * Permite executar programas de computador dentro da rede;
+
+  * Funciona como um “*Bitcoin* com capacidade de um computador”;
+
+  * Em teoria, o único limite do *Ethereum* é a criatividade de quem desenvolve os programas para a rede.
+
+- São funções adicionais do *Ethereum:*  
+  * Transferências de dinheiro;
+
+  * Execução de ***Smart Contracts*** (Contratos Inteligentes), programas que recebem uma quantia monetária e executam um serviço computacional, sendo usados em transações automáticas e outras aplicações computacionais na rede *Ethereum* (como uma máquina de venda automática);
+
+  * Usado como ferramenta de captação de recursos para empresas (ICO \- ***Initial Coin Offering***).
+
+### **Identidade no *Ethereum***
+
+- No *Bitcoin*, a identidade está ligada a uma chave pública que controla um saldo, como uma conta bancária;
+
+- No *Ethereum*, a identidade está mais próxima de um CNPJ, associada a contas que podem interagir com contratos inteligentes e transações;
+
+- Como no *Bitcoin* é possível ter várias chaves públicas e chaves secretas, no *Ethereum* é possível ter várias contas;
+
+### **Propriedade no *Ethereum***
+
+- No *Ethereum*, pode-se possuir e transacionar ativos que vão **além da moeda**, como itens digitais;
+
+- Um exemplo é o ***CryptoKitties***, um jogo de colecionar gatinhos digitais:
+
+  * Compra e venda de gatinhos digitais, armazenados na *Blockchain* e com a propriedade única e imutável;
+
+  * Preços variam, alguns chegando a valores altíssimos;
+
+  * Os gatinhos podem ser comprados, vendidos e até mesmo reproduzidos, tudo gerenciado por contratos inteligentes.
+
+- O *CryptoKitties* é um exemplo de como o *Ethereum* expande as funcionalidades da Blockchain e de toda a tecnologia introduzida pelo *Bitcoin*, permitindo novos tipos de aplicações, como contratos inteligentes e jogos baseados em *Blockchain*.
+
+## **Características Básicas do Ethereum**
+
+- O *Ethereum* foi projetado para suportar múltiplas aplicações, ao contrário do Bitcoin, que tem um propósito específico;
+
+- Da mesma forma que o *Bitcoin*, possui uma moeda nativa (*Ether*), esse *Ether* é altamente divisível (pode chegar até 1 milhão de partes menores), o que facilita a execução de ***Smart Contracts***;
+
+- Mineração ***Memory Hard*** (Focada em Memória), diferente do *Bitcoin*, o *Ethereum* utiliza memória em vez de poder de processamento para minerar, evitando a especialização excessiva;
+
+- Há uma discussão sobre a futura transição da mineração de ***Proof of Work*** (PoW) para ***Proof of Stake*** (PoS).
+
+- Além de transferir valores, no Ethereum também é possível **transferir dados e processar códigos**, isso permite a execução de *Smart Contracts*, que são fundamentais para a rede.
+
+### **Transparência e Fundadores**
+
+- Ao contrário do *Bitcoin*, o *Ethereum* tem **fundadores conhecidos**, o que traz maior legitimidade para o projeto;
+
+- Criada com o dinheiro arrecadado na criação do *Ethereum*, a ***Ethereum Foundation*** (Fundação Ethereum) coordena e financia o desenvolvimento da rede, trabalhando com desenvolvedores, mineradores e governos;
+
+- Por isso, o Ethereum tem um **Consenso Guiado**, embora a rede funcione de forma descentralizada, a fundação influencia nas decisões e direções do projeto.
+
+### **Descentralização e Críticas**
+
+- Apesar do Ethereum se basear em consenso, algumas poucas pessoas têm grande influência sobre o projeto;
+
+- Críticas surgem em relação à rede ser uma “Ditadura benevolente” devido à forte influência de indivíduos específicos.
+
+### **Capacidades Computacionais do Ethereum**
+
+- O *Ethereum* funciona como uma “***Blockchain*** **programável**”, pois possui a capacidade de executar qualquer tipo de algoritmo na rede;
+
+- Teoricamente, qualquer programa pode ser executado, o que torna o *Ethereum* **Turing-completo**, em teoria;
+
+- O que permite que isso aconteça é a ***Ethereum Virtual Machine*** **(EVM)**, a qual é fundamental para o funcionamento da rede, permitindo a execução de contratos inteligentes e outras aplicações descentralizadas;
+
+- Os seis elementos principais do Ethereum são:  
+  * Blockchain;
+
+  * Criptografia de chave pública;
+
+  * Mineração;
+
+  * Redes descentralizadas;
+
+  * ***Smart Contracts*** **(Contratos Inteligentes)**;
+
+  * ***Ethereum Virtual Machine*** **(EVM)**.
+
+## ***Accounts and States*** **(Contas e Estados)**
+
+- O Ethereum é uma **máquina de estados** e seu funcionamento é baseado em **contas**;
+
+- No *Ethereum*, existem dois tipos de contas:
+
+  * ***Externally Owned Accounts*** **(EOA)**: Contas de usuários controladas por chaves secretas;
+
+  * ***Smart Contract Accounts***: Contas controladas por códigos (*Smart Contracts*), sendo ativadas por EOAs.
+
+- Similaridades entre contas de usuários e contas de contratos inteligentes:  
+  * Ambas possuem um **endereço** e um **saldo**;  
+  * Ambas podem armazenar valores e informações adicionais.
+
+### **Funcionamento das Contas no Ethereum**
+
+- No *Ethereum*, cada conta tem um estado específico em um momento no tempo, exemplo: saldo e dados associados;
+
+- Cada nova transação ou bloco que chega pode **atualizar o estado** de uma conta;
+
+- Por exemplo: se uma transação é processada, o saldo da conta da Maria pode ser atualizado de 4.52 *Ether* para 2.50 *Ether*;
+
+![Exemplo do Funcionamento de Contas de Usuário][imageContasUsuario]
+
+- No *Bitcoin*, o saldo é baseado em **transações não gastas**;
+
+- No *Ethereum*, o saldo é atualizado diretamente, de forma mais intuitiva e similar a uma conta bancária.
+
+### **Contas de *Smart Contracts***
+
+- Contas de *Smart Contracts* também possuem estados que podem ser atualizados com base nas transações;  
+- Exemplo: uma máquina de refrigerante representada como um contrato inteligente no *Ethereum*:  
+  * Tem saldo e pode armazenar informações como quantos refrigerantes ainda estão disponíveis;
+
+  * O estado dessa conta pode ser alterado com transações, como quando alguém compra um refrigerante.
+
+![Exemplo de Funcionamento de Contas de Smart Contracts][imageContasSmartContracts]
+
+### **Armazenamento dos Estados das Contas**
+
+- Os estados das contas no *Ethereum* são armazenados fora da *Blockchain*, em uma estrutura de dados chamada ***State Tree***;
+
+- Todos os nós da rede mantêm cópias desses estados e os atualizam a cada novo bloco;
+
+- As transações armazenadas na *Blockchain* são responsáveis por alterar esses estados;
+
+- O *Ethereum* escolheu esse modelo por dois motivos:  
+  * **Simplicidade Conceitual**: Trabalhar com contas e estados é mais intuitivo para programadores e facilita a criação de programas na rede, especialmente com o foco em contratos inteligentes;
+
+  * **Eficiência Computaciona**l: O modelo de contas no *Ethereum* é mais eficiente do que o modelo de transações não gastas do *Bitcoin*, o que é crucial para rodar **contratos inteligentes** e outras operações complexas na rede.
+
+## ***Ethereum Virtual Machine*** **(EVM)**
+
+- A *Ethereum Virtual Machine* (EVM) é essencial para o funcionamento da rede;
+
+- No *Bitcoin*, os mineradores verificam e validam transações financeiras (moedas destruídas e criadas);
+
+- No *Ethereum*, além de validar transações, os mineradores também executam códigos complexos, já que o *Ethereum* é Turing-completo;
+
+- Todos os nós da rede devem executar o código em todos os blocos para manter os estados atualizados, criando um desafio de **eficiência**.
+
+### **Problemas de Compatibilidade entre Máquinas**
+
+- Diferentes dispositivos, como computadores, smartphones e até mesmo máquinas de refrigerantes, precisam executar o mesmo código;
+
+- Uma comparação com consoles de videogames antigos, cada console usava cartuchos específicos, assim como diferentes sistemas operacionais exigem versões específicas de softwares;
+
+- O problema é que o código do *Ethereum* precisa ser executado **independentemente do hardware**.
+
+### **A solução: *Ethereum Virtual Machine* (EVM)**
+
+- A EVM é solução para garantir que o mesmo código possa rodar em diferentes máquinas, independentemente de suas características;
+
+- A EVM atua como um **intermediário**, cada dispositivo instala sua própria versão da EVM, mas a interação com o código do *Ethereum* é sempre a mesma;
+
+- Isso permite que o código seja executado uniformemente em diferentes tipos de dispositivos.
+
+### **Comparação com a Java Virtual Machine (JVM)**
+
+- O conceito da EVM é semelhante ao da *Java Virtual Machine* (JVM), assim como aplicações podem ser acessadas em qualquer sistema operacional com a JVM, o código do *Ethereum* pode ser executado em qualquer dispositivo com a EVM;
+
+- A JVM cria uma máquina virtual que executa essas aplicações, independentemente do hardware ou sistema operacional.
+
+### **Benefícios da EVM**
+
+- Assim como a JVM, a EVM elimina a necessidade de programadores se preocuparem com a máquina onde o código será executado;
+
+- Os programadores podem usar **linguagens de alto nível** como ***Solidity***, a linguagem do *Ethereum*, para escrever contratos inteligentes de maneira mais fácil e intuitiva.
+
+## **Gas no Ethereum**
+
+- Todos os nós da rede *Ethereum* devem executar o código de todos os blocos, o que resulta em ineficiência;
+
+- A execução do código ocorre tanto em computadores potentes quanto em dispositivos com capacidades limitadas.
+
+### **Limitações da Rede *Ethereum***
+
+- **Custo de processamento**: Executar códigos na rede gera custos, especialmente para os mineradores;
+
+- **Vulnerabilidade a ataques DDoS (*Denial of Service*)**: Um atacante pode enviar programas inúteis para sobrecarregar a rede, tornando-a mais lenta e cara;
+
+- **Algoritmos com problemas**: Códigos com erros ou travamentos podem prejudicar a rede;
+
+- **Loops infinitos**: Programas que repetem operações indefinidamente podem travar a rede.
+
+**Solução: Gas no *Ethereum***
+
+- **Gas** é o sistema de combustível utilizado para rodar transações e programas na rede *Ethereum*;
+
+- Cada transação na rede tem um custo em Gas, que deve ser pago em *Ether*;
+
+- O Gas é necessário para executar qualquer operação, e quanto mais complexo for o programa, maior será o custo.
+
+### **Funcionamento do Gas**
+
+- Para rodar um programa na rede, o usuário deve fornecer uma quantidade de Gas junto com o código;
+
+- Existem três possíveis resultados para a execução de uma transação:  
+1. **Execução bem-sucedida**: Se houver Gas suficiente, a transação é concluída, e o Gas restante é devolvido;
+
+2. **Falta de Gas**: Se o programa consumir todo o Gas antes de finalizar, ele será interrompido e a operação não será concluída;
+
+3. **Limite de Gas**: Cada transação tem um limite de Gas que pode ser utilizado, evitando a execução de programas excessivamente complexos.
+
+### **Benefícios do Sistema de Gas**
+
+- **Protege contra loops infinitos**: A execução do programa para quando o Gas acaba, evitando travamentos na rede;
+
+- **Impede ataques DDoS**: Atacar a rede com programas inúteis se torna caro, pois cada execução requer pagamento em Gas;
+
+- **Incentiva a eficiência**: Os programadores são incentivados a criar códigos mais eficientes para gastar menos Gas;
+
+- **Facilita a precificação**: O custo em Gas para uma transação é constante, mas o preço do Gas varia de acordo com a demanda da rede.
+
+### **Variação no Preço do Gas**
+
+- Para uma mesma operação, o custo em Gas é sempre o mesmo;
+
+- Como o preço do Gas varia de acordo com a demanda, o preço do Gas aumenta quando a rede está congestionada, tornando as transações mais caras;  
+- Em momentos de alta demanda, apenas transações prioritárias são processadas rapidamente, enquanto outras aguardam o preço do Gas cair.
+
+![Gráfico do Preço do Gas ao longo do tempo][imageGraficoGas]
+
+## ***Smart Contracts*** **(Contratos Inteligentes)**
+
+- ***Smart Contracts*** são a funcionalidade mais famosa do Ethereum e uma das principais inovações dessa tecnologia;
+
+- Eles permitem que qualquer aplicação seja executada na *Blockchain*, com limitações apenas na capacidade de criação de contratos;
+
+- A execução dos *Smart Contracts* segue o princípio de que tudo o que foi programado para acontecer, e de fato acontece, sem necessidade de confiança entre as partes envolvidas.
+
+### **Funcionamento dos *Smart Contracts***
+
+- Tomamos como exemplo: Maria compra um curso online de José, no modelo tradicional, a transação depende de questões de confiança;
+
+- Já com *Smart Contracts*, a lógica interna do contrato garante a execução sem a necessidade de confiança;
+
+- A lógica do contrato funciona como uma **máquina de refrigerante**: Maria envia *Ether* e informações, e o contrato retorna o produto ou serviço, conforme a programação;
+
+- A maioria dos contratos são **autônomos**, operando sem intervenção humana, apenas obedecendo à programação interna.
+
+### **Origem dos *Smart Contracts***
+
+- O conceito de *smart contracts* foi introduzido em **1993**, por ***Nick Szabo***, que comparava esses contratos com os contratos legais tradicionais;
+
+- Um *smart contract digital* trata-se de um conjunto de regras combinadas entre as partes e executado automaticamente quando as condições são atendidas, sem a possibilidade de violação, a menos que o contrato inclua uma cláusula de reversão.
+
+### **Criação e Estrutura dos *Smart Contracts***
+
+- No *Ethereum*, um *smart contract* é um conjunto de código e dados que residem em um uma conta na rede;
+
+- Assim como as contas controladas por usuários, os *smart contracts* possuem um **endereço**, um **saldo de *Ether*** e recebem dados e instruções para execução de ações;
+
+- A criação de um *smart contract* envolve a realização de uma transação que contém as **instruções para montar o código do contrato** e uma **quantidade de *Ether*** para pagar o minerador que processará essa transação;
+
+- *Smart contracts* podem comunicar entre si, enviar mensagens para contas de pessoas e até mesmo realizarem autodestruição;
+
+- A única limitação para o funcionamento de um *smart contract* é a capacidade de programá-lo corretamente.
+
+### **Exemplos de Aplicações de *Smart Contracts***
+
+- **Armazenamento Seguro de Fundos**:  
+  * Por exemplo, José e Maria criam um *smart contract* que armazena o dinheiro deles e para retirar os fundos, é necessário obter a assinatura de ambos.
+
+- **Compra Automatizada**:  
+  * Maria quer comprar algo de uma “máquina de refrigerante” virtual, ela então envia *Ether* junto com as informações do produto desejado, e o contrato automaticamente realiza a transação, retornando o item.
+
+- **Governança Descentralizada**:  
+  * Empresas podem usar *smart contracts* para emitir **tokens** que funcionam como ações, investidores podem comprar esses tokens e usá-los para votar nas decisões da empresa, o contrato garante que as decisões sejam executadas com base na maioria dos votos.
+
+## **DApps \- Aplicativos Descentralizados**
+
+- *Smart contracts* funcionam como blocos ou tijolos para construir **aplicativos descentralizados (DApps)**;
+
+- Aplicativos descentralizados (DApps), como o nome sugere, são diferentes dos aplicativos tradicionais por não terem controle centralizado;
+
+- DApps variam em graus de descentralização, alguns são completamente descentralizados, como o *Bitcoin*, enquanto outros têm componentes centralizados e uma pequena parte descentralizada;
+
+- A descentralização pode ser um espectro, com diferentes níveis entre aplicativos;
+
+- ***BitTorrent*** é um exemplo de aplicativo descentralizado para compartilhamento de arquivos, sem um servidor central, resistente a tentativas de encerramento;
+
+- DApps geralmente são *open-source*, sem intermediários, sem um ponto central de falha e com alta resiliência.
+
+### **Diferenças entre DApps e Aplicativos Tradicionais**
+
+- DApps, ao contrário dos aplicativos tradicionais, não possuem um ponto central de falha, o que aumenta a segurança e resiliência;
+
+- Em um DApp totalmente descentralizado, todos os usuários participam da operação do aplicativo, tornando impossível parar sua execução sem interromper todos os usuários.
+
+### **Vantagens da Descentralização**
+
+- Resiliência contra censura ou controle;
+
+- Maior transparência e segurança, pois o código é geralmente *open-source*;
+
+- Ausência de intermediários, o que pode reduzir custos e aumentar a eficiência.
+
+### **Exemplos Reais de DApps**
+
+- ***HyperDragons***: Jogo de estratégia onde os jogadores podem comprar dragões únicos e usar tokens com valor monetário real;
+
+- ***Geon***: Um aplicativo de marketing descentralizado que recompensa usuários que visitam locais físicos, com tokens;
+
+- ***MakerDAO***: Criação de uma moeda estável (**DAI**) que sempre vale um dólar, oferecendo uma economia estável baseada em criptomoedas.
+
+### **Desafios dos Aplicativos Descentralizados**
+
+- ***Decentralized Autonomous Organization*** **(DAO)**: Um exemplo de DApp que fracassou devido a um bug no *smart contract* que permitiu o roubo de 50 milhões de dólares e resultou em um *hard fork* na *Blockchain* *Ethereum*, gerando as moedas *Ethereum* e *Ethereum Classic*;
+
+- **A lição aprendida com a DAO**: Apesar da potencialidade dos *Smart contracts*, isso ainda está no começo e são suscetíveis a falhas;
+
+- Apesar disso, o desenvolvimento de DApps continua crescendo, com potencial para criar uma sociedade mais descentralizada no futuro.
 
 [imageExemploHash]: <https://github.com/user-attachments/assets/aecb3522-9dde-4a33-9233-e8bde00afe3a> 
 
@@ -751,3 +1090,9 @@
 [imageCarteiraDeSoftware]: <https://github.com/user-attachments/assets/015a45ce-e10a-4123-b93a-10b7edb56058>
 
 [imageCarteiraOnline]: <https://github.com/user-attachments/assets/1ea1d52f-53fb-472b-8368-2d169b5ec39d>
+
+[imageContasUsuario]: <https://github.com/user-attachments/assets/89ad4fda-183a-43b1-b2e8-3d93dfe1738a>
+
+[imageContasSmartContracts]: <https://github.com/user-attachments/assets/54e5b027-5e27-4361-b0d0-963e6f1dc9c6>
+
+[imageGraficoGas]: <https://github.com/user-attachments/assets/76b58db6-359d-4c36-bf52-47db7a0f85a5>
