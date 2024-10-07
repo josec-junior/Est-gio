@@ -3,6 +3,8 @@ Este repositório contém resumos e atividades realizados durante o meu Estágio
 
 ## Assuntos abordados
 
+### Seção 1 - *Basics for Teamwork and Agile Development*
+
 - [Metodologias Ágeis - Scrum](Resumos/Metodologias%20Ágeis%20-%20Scrum.md)
 
 - [Git e GitHub](Resumos/Git%20e%20GitHub.md)
@@ -12,3 +14,5 @@ Este repositório contém resumos e atividades realizados durante o meu Estágio
 - [Markdown](Resumos/Markdown.md)
 
 - [Fundamentos de Segurança da Informação](Resumos/Fundamentos%20de%20Segurança%20da%20Informação.md)
+
+### Seção 2 - *Blockchain: Safe Shallows*
