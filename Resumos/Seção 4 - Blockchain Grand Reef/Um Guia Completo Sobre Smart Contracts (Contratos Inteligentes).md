@@ -1,4 +1,4 @@
-# **Um Guia Completo Sobre Smart Contracts (Contratos Inteligentes)**
+# **Um Guia Completo Sobre *Smart Contracts* (Contratos Inteligentes)**
 
 - Em qualquer setor, a automação é uma necessidade, pois as empresas buscam maximizar lucros ao mesmo passo que minimizam despesas;
 
