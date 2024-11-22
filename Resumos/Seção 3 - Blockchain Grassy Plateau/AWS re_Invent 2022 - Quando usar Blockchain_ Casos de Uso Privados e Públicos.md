@@ -1,4 +1,4 @@
-# **AWS re:Invent 2022 \- Quando usar *Blockchain*: Casos de Uso Privados e Públicos**
+# **AWS *re:Invent* 2022 \- Quando usar *Blockchain*: Casos de Uso Privados e Públicos**
 
 - Para responder à questão de quando usar *Blockchain*, primeiro temos que responder à questão de para que servem as *Blockchains*;
 
